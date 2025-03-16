@@ -1,7 +1,3 @@
-
-
-https://github.com/user-attachments/assets/f27ae6d8-2967-46c9-bfc9-d86475bd3131
-
 # Hackathon-Light-weighted-posture-guidance-system
 ## Problem Statement
 Poor seated posture leads to chronic musculoskeletal disorders. This system provides real-time visual feedback to users to maintain ergonomic posture during extended sitting sessions.
@@ -91,7 +87,30 @@ Check the confusion matrix and classification report by running the original scr
 
 
 
-https://github.com/user-attachments/assets/e5c8df97-43db-44ad-928b-fb5cced8c9aa
+https://github.com/user-attachments/assets/e5c8df97-43db-44ad-928b-fb5cced8c9aa 
+- While sitting posture detection
 
+https://github.com/user-attachments/assets/f27ae6d8-2967-46c9-bfc9-d86475bd3131
+- While standing
+
+
+ # Installation Guide
+
+## Prerequisites
+- Python 3.9 or higher
+- pip package manager
+
+## Dependencies
+- numpy==1.26.4
+- opencv-python==4.9.0.80
+- mediapipe==0.10.11
+- ultralytics==8.2.6 (for YOLO implementation)
+
+## Installation Steps
+
+1. **Clone the repository**
+```bash
+git clone [your-repository-url]
+cd seated-posture-detection
 
 
