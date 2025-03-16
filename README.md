@@ -110,7 +110,29 @@ https://github.com/user-attachments/assets/f27ae6d8-2967-46c9-bfc9-d86475bd3131
 
 1. **Clone the repository**
 ```bash
-git clone [your-repository-url]
+git clone [https://github.com/ABIR200406/Hackathon-Light-weighted-posture-guidance-system]
 cd seated-posture-detection
+```
+# Create Virtual Environment
+```
+python -m venv posture-env
+source posture-env/bin/activate  # Linux/MacOS
+.\posture-env\Scripts\activate  # Windows
 
+pip install numpy==1.26.4 opencv-python==4.9.0.80 mediapipe==0.10.11 ultralytics==8.2.6
+```
+#Hardware Requirements
+Webcam or USB camera
+Recommended: CPU with AVX2 support or NVIDIA GPU with CUDA 11.x for better performance
 
+#Verify Installation
+Run a test command:
+```
+python -c "import cv2; import mediapipe as mp; print('OpenCV version:', cv2.__version__); print('MediaPipe version:', mp.__version__)"
+```
+#Troubleshooting
+If you get mediapipe errors, try updating protobuf:
+```
+pip install --upgrade protobuf==3.20.*
+```
+For webcam issues, verify camera permissions and connections
