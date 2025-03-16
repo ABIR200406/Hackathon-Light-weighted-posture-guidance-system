@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/f27ae6d8-2967-46c9-bfc9-d86475bd3131
+
 # Hackathon-Light-weighted-posture-guidance-system
 ## Problem Statement
 Poor seated posture leads to chronic musculoskeletal disorders. This system provides real-time visual feedback to users to maintain ergonomic posture during extended sitting sessions.
