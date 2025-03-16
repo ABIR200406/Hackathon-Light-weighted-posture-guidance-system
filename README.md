@@ -123,6 +123,7 @@ pip install numpy==1.26.4 opencv-python==4.9.0.80 mediapipe==0.10.11 ultralytics
 ```
 #Hardware Requirements
 Webcam or USB camera
+
 Recommended: CPU with AVX2 support or NVIDIA GPU with CUDA 11.x for better performance
 
 #Verify Installation
